@@ -200,10 +200,127 @@ nav ul li a:hover:before{
 }
 
 .addres{
-    font-size:0.8rem;
+    font-size:0.8rem;    
 }
 
 .addres:hover{
     color:#b3b3b3;
     transition:.5s;
+}
+
+
+/*Responsib nab*/
+@media(max-width:574px){
+    nav ul li{
+       margin:5px;
+       margin-top:20px;
+    }
+    nav ul li a{
+       font-size:0.4rem;
+      
+    }
+   .heden-nav{
+       display:block;
+   }
+   .btn{
+      display:none;
+   }
+   .hero2{
+    flex-direction:column;
+   }
+
+   .list-box{
+    flex-direction:column;
+   }
+   .foot-container{
+    flex-direction:column;
+   }
+
+   .hero1{
+    margin-left:0;
+   }
+}
+
+/*Responsib nav bar*/
+@media(max-width:750px){
+    
+    nav ul li{
+        margin:5px;
+        margin-top:15px;
+        }
+    nav ul li a{
+        font-size:0.5rem;
+
+    }
+     .image-logo{
+        height:18px;
+        width:18px;
+        margin-top: 20px;
+        margin-left:4px;
+     }
+ 
+    .btn{
+        font-size:0.5rem;
+        margin-top:13px;
+    }
+    .hero2{
+        flex-direction:column;
+       }
+
+       .list-box{
+        flex-direction:column;
+       }
+       .foot-container{
+        flex-direction:column;
+       }
+
+       .hero1{
+        margin-left:0;
+        margin-top:20px;
+        text-align:center;
+       }
+       .box-image{
+        width:80%;
+        height:180px;
+        margin-left:20px;
+       }
+
+       .para-co{
+        margin-left:20px;
+        font-size:1rem;
+        margin-top:30px;
+        
+       }
+
+       .btn-r{
+        height:20px;
+        font-size:1rem;
+        color:#020202;
+        display:flex;
+        padding-left:10px;
+        padding-right:10px;
+        padding-top:8px;
+        padding-bottom:23px;
+        
+       }
+       /*end of paragrap image*/
+       .listing1{
+        width:100%;
+       }
+       .listing2{
+        width:100%;
+       }
+       .listing3{
+        width:100%;
+       }
+
+       /*foofer section*/
+       .foot-container{
+        width:100%;
+        height:800px;
+       }
+
+       .description-1{
+        margin-left:20px;
+       }
 }
