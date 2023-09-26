@@ -1,0 +1,209 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:#866152;
+}
+
+.image-logo{
+    height:35px;
+    width:35px;
+    margin-top:40px;
+    margin-left:40px;
+}
+
+/*this is nav manu*/
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav ul li{
+   display:inline-block;
+   margin:25px;
+   margin-top:60px;
+}
+
+nav ul li a{
+    color:#fff;
+    text-decoration:none;
+    font-size:1rem;
+    position:relative;
+}
+
+/*nav manu buttom*/
+.btn{
+   padding:5px;
+   border-radius:10px;
+   background-color:#866152;
+   border:1px solid #fff;
+   color:#fff;
+   padding-left:18px;
+   padding-right:18px;
+   font-size:1rem;
+   margin-top:20px;
+   margin-right:40px;
+   font-weight:bold;
+}
+
+nav ul li a:before{
+    position:absolute;
+    content:'';
+    background-color:#fff;
+    height:3px;
+    width:100%;
+    top:21px;
+    bottom:0;
+    transform:scalex(0);
+    transition:transform .3s linear;
+}
+
+nav ul li a:hover:before{
+    transform:scale(1);
+    transform-origin:left;
+}
+
+.btn:hover{
+    background-color:#fff;
+    color:#866152;
+    transition:.5s;
+}
+
+.hero1{
+    margin-left:80px;
+    margin-top:30px;
+}
+
+.hero-h{
+    color:#fff;
+    font-family:Adobe Garamond Pro;
+}
+
+.hero-p{
+    color:#d1d1d1;
+    
+}
+
+/*box image and paragrap*/
+
+.box-image{
+    height:400px;
+    width:60%;
+    background-color:#fff;
+    margin-left:4px;
+    background-image:url("para-gappara-gappara-gappara-gappara-gappara-gappara-gappara-gap.jpg");
+    background-size:100% 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hero2{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:10px;
+}
+.para-co{
+    margin-right:100px;
+}
+.para-h{
+    color:#fff;
+    font-size:25px;
+    }
+
+.para-p{
+    color:#fff;
+    margin-top:10px;
+}
+
+.para-gap{
+    color:#fff;
+    margin-top:20px;
+}
+
+.btn-r{
+   padding:5px 75px 5px 75px;
+   color:#866152;
+   margin-top:10px;
+}
+
+.btn-r{
+    border:1px solid transparent;
+}
+
+.btn-r:hover{
+    background-color:#866152;
+    border:1px solid #fff;;
+    transition:.5s;
+    color:#fff;
+}
+/*last box*/
+
+.list-box{
+    display:flex;
+    justify-content:space-around;
+    margin-top:60px;
+    flex-wrap:wrap;
+}
+
+.para2{
+    color:#fff;
+    margin-top:80px;
+}
+.para3{
+    color:#fff;
+   
+}
+
+.listing1{
+    height:100px;
+    width:25%;
+    margin-left:20px;
+  
+    margin-bottom:100px;
+}
+
+.listing2{
+    height:100px;
+    width:25%;
+    margin-left:20px;
+
+    margin-bottom:100px;
+}
+
+.listing3{
+    height:100px;
+    width:25%;
+    margin-left:20px;
+   
+    margin-bottom:100px;
+}
+/*footer content*/
+.foot-container{
+    height:200px;
+    width:100%;
+    background-color:rgb(78, 78, 78);
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.description-1{
+    color:#fff;
+    margin-top:50px;
+}
+
+.foot-h{
+    font-size:1.3rem;
+}
+
+.addres{
+    font-size:0.8rem;
+}
+
+.addres:hover{
+    color:#b3b3b3;
+    transition:.5s;
+}
